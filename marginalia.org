@@ -1,0 +1,65 @@
+
+* Unofficial Manual: Org-roam
+:PROPERTIES:
+:marginalia-source-file: ~/iCloudDrive/home/projects/2020-10_org-roam-unofficial-user-guide/capture.org
+:END:
+
+** * Capture
+:PROPERTIES:
+:marginalia-id: 608b57cc
+:marginalia-source-beg: 39
+:marginalia-source-end: 48
+:END:
+[[file:~/iCloudDrive/home/projects/2020-10_org-roam-unofficial-user-guide/capture.org][Unofficial Manual: Org-roam]]
+
+* COMMENT Notes
+This makes =org-roam-capture= so powerful. 
+
+You might feel see that it is a way to implement the "inbox" concept of [[https://en.wikipedia.org/wiki/Getting_Things_Done][Get Things Done (GTD)]]. In fact, [[https://blog.jethro.dev/posts/capturing_inbox/][many people]] use Org Mode as a tool for their GTD workflow. Org-roam and =org-roam-capture= can be seen as an extension to
+
+If you are familiar with Org Mode, it's an Org-roam equivalent of =org-capture=. The main difference in the design is that Org-roam's capture is designed to capture you ideas, rather than task to add to your To-Do list.
+
+Something like this works.
+
+=pandoc -F pandoc-crossref -M figureTitle=Fig -M --citeproc capture.org -o capture.docx=
+
+(setq org-latex-prefer-user-labels t)
+(require 'org-ref)
+
+#+begin_quote
+   Let us now create our first note.  Call ‘M-x org-roam-find-file’.
+This shows a list of titles for notes that reside in
+‘org-roam-directory’.  It should show nothing right now, since there are
+no notes in the directory.  Entering the title of the note you wish to
+create, and pressing ‘RET’ should begin the note creation process.  This
+process uses ‘org-capture’’s templating system, and can be customized
+(see *note The Templating System::).  Using the default template,
+pressing ‘C-c C-c’ finishes the note capture.
+#+end_quote
+
+#+begin_quote
+3.1 Fleeting notes
+==================
+
+A slip-box requires a method for quickly capturing ideas.  These areq
+called *fleeting notes*: they are simple reminders of information or
+ideas that will need to be processed later on, or trashed.  This is
+typically accomplished using ‘org-capture’ (see *note (org)Capture::),
+or using Org-roam’s daily notes functionality (see *note Daily-notes::).
+This provides a central inbox for collecting thoughts, to be processed
+later into permanent notes.
+#+end_quote
+
+Capturing fleeting ideas:
+- `org-roam-capture`
+- `org-roam-find-file`
+- `org-roam-find-file-immediate`
+
+Capturing website:
+- `org-roam-protocols`
+
+Taking notes on academic journals, papers, and books:
+- `org-roam-bibtex` 
+
+* COMMENT Different tone; more like tutorial
+Now you have installed and set up Org-roam. You can start capturing your ideas in a note. This also let you check that you have set up Org-roam as it should be.
