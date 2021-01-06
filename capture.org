@@ -1,7 +1,7 @@
 #+title: Unofficial Manual: Org-roam
 
 * Capture
-If you haven't done so, have a look at [[https://www.orgroam.com/manual.html#Getting-Started][Getting Started]] (also available in the Emacs in-system help documentation, =C-h i=); it is 5-10 quick walk-through to get you started with using Org-roam.
+If you haven't done so, have a look at [[https://www.orgroam.com/manual.html#Getting-Started][Getting Started]] (also available in the Emacs in-system help documentation, =C-h i=); it is 5-10-minute quick walk-through to get you started with using Org-roam.
 
 Capturing your fleeting ideas in a note is the first step to start connecting and tinkering with your thoughts in Org-roam. The main commands you would use is =org-roam-capture=.
 
