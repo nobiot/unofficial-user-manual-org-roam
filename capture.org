@@ -33,7 +33,7 @@ Once the code is evaluated, you should see the template repeated in the minibuff
 
 [[file:./images/2021-01-06T175543-OR-Maual-002.png]]
 
-It's a menu for you to choose a template from. Now that you have more than one, Emacs asks you which one you want to use this time. Press "p" on your keyboard to chose the "project" template that you have just added.
+It's a menu for you to choose a template from. Now that you have more than one, Emacs asks you which one you want to use this time. Press "p" on your keyboard to choose the "project" template that you have just added.
 
 [[file:./images/2021-01-06T181237-OR-Maual-001.png]]
 
