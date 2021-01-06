@@ -1,0 +1,9 @@
+#+title: Unofficial User Manual: Org-roam
+
+It is a draft / sample chapters for Unofficial User Manual: Org-roam
+
+Adding contents to this original outline available at
+https://org-roam.discourse.group/t/unofficial-user-guide-to-org-roam-idea-outline-only-at-this-stage/797
+
+* License
+This work is licensed under a [[https://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]].
