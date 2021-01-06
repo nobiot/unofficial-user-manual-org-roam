@@ -16,9 +16,9 @@ You can quickly jot down your ideas ([@Fig:org-capture]), and press =C-c C-c= to
 
 If you do not like to save the note, press =C-c C-k= instead; the note goes away without cluttering your system. This =C-c C-c= and =C-c C-k= are something of a de facto standard operation in the world of Org Mode, so it will become your second nature very soon, if you are sticking to it as your main tool to organize your To-Do list and fleeting ideas.
 
-In addition, you may also notice the title you entered already entered at the top part of the note, and the cursor moved to where you can start typing your ideas. Further more, the name of the file has been provided automatically as well. These automations are provided through Org-roam's [[https://www.orgroam.com/manual.html#The-Templating-System][templating system]]. This means, you have a full control of how your want the capturing process to be.
+In addition, you may also notice the title you entered already provided at the top part of the note, and the cursor moved to where you can start typing your ideas. Further more, the name of the file has been given automatically as well. These automations are achieved through Org-roam's [[https://www.orgroam.com/manual.html#The-Templating-System][templating system]]. This means that you have a full control of how your want the capturing process to be in the way you like.
 
-Let's play with an example. Paste the code snippet below in the scratch buffer (or whatever buffer you feel like; it would be easier for you to turn on =emacs-lisp-mode= for syntax highlighting), and evaluate it. It will add a new Org-roam capture template to the default one (there is a default one when you have installed Org-roam). Try not to worry about "messing things up" for now. If you quick Emacs, and comes back in, this change will not be kept.
+Let's play with an example. Paste the code snippet below in the scratch buffer (or whatever buffer you feel like; it would be easier if you to turned on =emacs-lisp-mode= for syntax highlighting), and evaluate it. It will add a new Org-roam capture template to the default one (there is a default one when you have installed Org-roam). Try not to worry about "messing things up" for now. If you quick Emacs, and comes back in, this change will not be kept.
 
 #+begin_src emacs-lisp
   (add-to-list 'org-roam-capture-templates
@@ -39,9 +39,11 @@ It's a menu for you to choose a template from. Now that you have more than one, 
 
 Now you see that the new note has additional metadata, "created" with the current time already entered. The file name also is slightly different without the note's title -- it only has the time stamp as the filename. If you also look carefully, this file is added in a sub-directory named "project", instead of saved directly under your =org-roam-directory=. 
 
-If you are not familiar with this type of scripting to configure your software applications, you might be overwhelmed. That's normal. The opportunities and the scope with which you can extend how Emacs behaves are enormous. Org-roam's templating system is based on Org Mode's, and there is extensive documentation [[https://orgmode.org/manual/Capture-templates.html][available online]] and in-system. There is no need to learn everything up-front. Try a small tweaking of the default template, one piece at a time. Googling helps, too. 
+If you are not familiar with this type of scripting to configure your software applications, you might be overwhelmed. That's normal. The opportunities and scope to extend how Emacs behaves are enormous. Org-roam's templating system is based on Org Mode's, and there is extensive documentation [[https://orgmode.org/manual/Capture-templates.html][available online]] and in-system. There is no need to learn everything up-front. Try a small tweaking of the default template, one piece at a time. Googling helps, too. 
 
-This covers the basics of the Capture step in Org-roam. There are some more varieties on top of this foundation.
+This covers the basics of the Capture step in Org-roam. There are some more varieties on top of this foundation. See the next section for more.
+
+<It would be good if more can be added by PR contributions, or fork; whatever suites you...>
 
 * More
 
