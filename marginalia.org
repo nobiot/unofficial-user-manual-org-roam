@@ -12,7 +12,7 @@
 :END:
 [[file:~/iCloudDrive/home/projects/2020-10_org-roam-unofficial-user-guide/capture.org][Unofficial Manual: Org-roam]]
 
-* COMMENT Notes
+* Notes
 This makes =org-roam-capture= so powerful. 
 
 You might feel see that it is a way to implement the "inbox" concept of [[https://en.wikipedia.org/wiki/Getting_Things_Done][Get Things Done (GTD)]]. In fact, [[https://blog.jethro.dev/posts/capturing_inbox/][many people]] use Org Mode as a tool for their GTD workflow. Org-roam and =org-roam-capture= can be seen as an extension to
@@ -61,5 +61,6 @@ Capturing website:
 Taking notes on academic journals, papers, and books:
 - `org-roam-bibtex` 
 
-* COMMENT Different tone; more like tutorial
+* Different tone; more like tutorial
+Well, in the end, my text sounds like this anyway...
 Now you have installed and set up Org-roam. You can start capturing your ideas in a note. This also let you check that you have set up Org-roam as it should be.

@@ -55,6 +55,11 @@ This covers the basics of the Capture step in Org-roam. There are some more vari
 
 - org-roam-bibtex :: Taking notes on academic journals, papers, and books:
 
+
+
+
+
+* COMMENT Local variables for marginalia
 ;; Local Variables:
 ;; eval: (if (find-library "org-marginalia")(progn (require 'org-marginalia)(org-marginalia-mode 1)))
 ;; End:
