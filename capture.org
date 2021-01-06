@@ -29,7 +29,7 @@ Let's play with an example. Paste the code snippet below in the scratch buffer (
                  :unnarrowed t))
 #+end_src
 
-Once the code is evaluated, you should see the template repeated in the minibuffer; this means Emacs has done something based on your command. Call =org-roam-capture= to create a new note. This time, you should see a menu that looks like this to pop up.
+Once the code is evaluated, you should see some string of text (it should be the template you typed) appear in the minibuffer; this means Emacs has done something based on your command. Call =org-roam-capture= to create a new note, enter a title, and press the Enter key. This time, you should see a menu that looks like this to pop up.
 
 [[file:./images/2021-01-06T175543-OR-Maual-002.png]]
 
